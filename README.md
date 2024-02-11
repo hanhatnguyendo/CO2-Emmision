@@ -39,3 +39,6 @@ The core outcome of this project is the development of a dashboard that visually
 **Performance Monitoring:** Track and monitor the effectiveness of emission reduction initiatives over time.
 
 **Stakeholder Communication:** Communicate transparently with stakeholders, customers, and the public about the company's commitment to environmental sustainability.
+
+## Data Source
+The data sourced from a Github User. The link to the dataset is as following: https://github.com/samirsaci/supply-chain-sustainability/tree/e6e6f1659181076f16df3dc31fc7cd768f9d2ae1/Data
