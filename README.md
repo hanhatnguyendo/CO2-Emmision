@@ -6,10 +6,12 @@
 This repository is dedicated to the "Reporting CO2 Emission of Distribution Network" project, a comprehensive initiative aimed at calculating and visualizing carbon emissions from the downstream distribution network of a company. The primary objective is to create a dashboard that provides insights into the environmental impact of the distribution processes.
 
 ## Project Components:
+
 - **Calculation Methodology:** The project employs the GHG protocol Scope 3, Category 9, focusing on calculating CO2 emissions. The formula involves utilizing Emissions Factors and considers the quantity of goods sold, distance traveled in transport legs, and emission factors of transport modes or vehicle types.
+  
 - **Emissions Formula:** The calculated CO2 emissions for each order number (linked with a customer and a date) are derived using the formula: **∑ (quantity of goods sold (tonnes) × distance traveled in transport legs (km) × emission factor of transport mode or vehicle type (kg CO2e/tonne-km))**.
 
- The chosen formula offers a gross estimation of CO2 emissions, providing valuable insights without requiring an excessively granular level of transportation data.
+   The chosen formula offers a gross estimation of CO2 emissions, providing valuable insights without requiring an excessively granular level of transportation data.
 
 - **Data Conversion:**
 Quantities ordered are converted into weight (kg) to ensure consistency and accuracy in emission calculations.
